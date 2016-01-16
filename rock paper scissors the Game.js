@@ -1,4 +1,4 @@
-var userChoice;
+var userChoice; //global scope variables
 var computerChoice;
 
 var getChoices = function() { //функция, которая определяет случайным образом выбор одного из 4х вариантов выбора для компьютера и ввод юзера
