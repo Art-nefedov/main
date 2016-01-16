@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8' />
+		<title></title>
+	</head>
+	<body>
+			<h1>This is header 1</h1>
+			<p><b>Paragraph</b><br>
+			<strong>Paragraph</strong><hr>
+			<i>paragraph</i></p>
+			<p id="parag"><em>emphasis<sup>99</sup><sub>99</sub></em></p>
+			<blockquote><mark>This is quote</mark></blockquote>
+			<ul>
+				<li>
+					<a href="http://lits.com.ua" target="blank">List item</a>
+				</li>
+				<li>
+				<a href="#parag">Anchor</a>
+				</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<ol>
+					<li>sub4</li>
+					<li>sub5</li>
+					<li>sub6</li>
+				</ol>
+			</ul>
+			<img src="NEWEST CV/IMG_20.jpg" alt="Avatar" width="100"><br>
+			<table width="300" style="border: 1px solid black">
+			<caption>Table header</caption>
+			<tbody>
+				<tr style="border: 1px solid black">
+					<td style="border: 1px solid black">Item</td>
+					<td>Item</td>
+					<td>Item</td>
+					<td>Item</td>
+				</tr>
+					<tr>
+					<td>Item</td>
+					<td>Item</td>
+					<td>Item</td>
+					<td rowspan="2">Item</td>
+				</tr>
+					<tr>
+					<td>Item</td>
+					<td>Item</td>
+					<td>Item</td>
+					
+				</tr>
+					<tr>
+					<td>Item</td>
+					<td>Item</td>
+					<td colspan="2">Item</td>
+					
+				</tr>
+				</tbody>
+			</table>
+			<br>
+			<form name="user" action="send.php" method="GET"> <!--POST -->
+				<label for="user_name">Your name</label><br> 
+				<input type="text" name="user_name" placeholder="Your name" id="user_name">
+				<br>
+				<label for="user_age">Your age</label>
+				<br>
+				<input type="number" name="user_age" placeholder="Your age" id="user_age">
+				<br>
+				<label for="user_pass">Password:</label>
+				<br>
+				<input type="password" name="user_pass" placeholder="Password" id="user_pass">
+				<br>
+				<br>
+				<input type="radio" name="sex" value="Male">Male
+				<input type="radio" name="sex" value="Female">Female
+				<br>
+				<br>
+				<label for="remember">Remember me</label>
+				<input type="checkbox" name="remember" id="remember">
+				<br>
+				<br>
+				<select name="city">
+					<option value="Kyiv">Kyiv</option>
+					<option value="Dnepr">Dnepr</option>
+				</select>
+				<br>
+				<br>
+				<label name="message">Message</label>
+				<br>
+				<textarea name="message" id="message"></textarea>
+				<br>
+				<br>
+				<input type="submit" value="submit">
+
+			</form>
+
+
+</html>
